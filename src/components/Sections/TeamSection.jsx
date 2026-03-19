@@ -1,15 +1,16 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+const teamMembers = [
+  { name: "K.M.H.S. Sathnidu", role: "Developer", image: "/team/Sanupa.jpeg" },
+  { name: "S.A.D.D. Dananji", role: "Developer", image: "/team/Dileesha.jpeg" },
+  { name: "I.S. Wimalaweera", role: "Developer", image: "/team/Sandil.jpeg" },
+  { name: "N.H.P.M. Chamalka", role: "Developer", image: "/team/Malshi.jpeg" },
+  { name: "M.H. Isali Dehansa", role: "Developer", image: "/team/Isali.jpeg" },
+  { name: "W.D.T.T. Abraham", role: "Developer", image: "/team/theven.jpeg" }
+];
+
 const TeamSection = () => {
-  const teamMembers = [
-    { name: "K.M.H.S. Sathnidu", role: "Developer", image: "/team/Sanupa.jpeg" },
-    { name: "S.A.D.D. Dananji", role: "Developer", image: "/team/Dileesha.jpeg" },
-    { name: "I.S. Wimalaweera", role: "Developer", image: "/team/Sandil.jpeg" },
-    { name: "N.H.P.M. Chamalka", role: "Developer", image: "/team/Malshi.jpeg" },
-    { name: "M.H. Isali Dehansa", role: "Developer", image: "/team/Isali.jpeg" },
-    { name: "W.D.T.T. Abraham", role: "Developer", image: "/team/theven.jpeg" }
-  ];
 
   const container = {
     hidden: { opacity: 0 },

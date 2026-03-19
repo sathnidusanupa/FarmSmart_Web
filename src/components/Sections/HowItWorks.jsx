@@ -130,3 +130,5 @@ const HowItWorks = () => {
 };
 
 export default HowItWorks;
+
+// Minor update: UpdateHowItWorkscomponentstructure

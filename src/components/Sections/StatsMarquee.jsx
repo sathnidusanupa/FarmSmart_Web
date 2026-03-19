@@ -1,15 +1,16 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+const stats = [
+  { label: "Mobile Framework", value: "React Native" },
+  { label: "Secure Payments", value: "Stripe" },
+  { label: "Image Hosting", value: "Cloudinary" },
+  { label: "Authentication", value: "Clerk" },
+  { label: "Data Encryption", value: "Node.js" },
+  { label: "UX Performance", value: "60fps Animations" }
+];
+
 const StatsMarquee = () => {
-  const stats = [
-    { label: "Mobile Framework", value: "React Native" },
-    { label: "Secure Payments", value: "Stripe" },
-    { label: "Image Hosting", value: "Cloudinary" },
-    { label: "Authentication", value: "Clerk" },
-    { label: "Data Encryption", value: "Node.js" },
-    { label: "UX Performance", value: "60fps Animations" }
-  ];
 
   // Duplicate the array to create a seamless loop
   const marqueeItems = [...stats, ...stats, ...stats];

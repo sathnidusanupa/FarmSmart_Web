@@ -72,3 +72,5 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
+// Minor update: EnhanceHeroSectionlayoutcomponents

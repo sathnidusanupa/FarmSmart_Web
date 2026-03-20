@@ -24,7 +24,7 @@ const StatsMarquee = () => {
         <div className="flex gap-16 md:gap-32 animate-marquee whitespace-nowrap pl-16">
           {marqueeItems.map((stat, idx) => (
             <div key={`stat-${idx}`} className="flex items-center gap-4" aria-hidden={idx >= stats.length ? "true" : "false"}>
-              <span className="text-3xl md:text-5xl font-display font-extrabold text-farm-green-400">
+              <span className="text-3xl md:text-5xl font-display font-extrabold text-farm-green-400 drop-shadow-sm">
                 {stat.value}
               </span>
               <span className="text-sm md:text-base font-medium text-slate-300 uppercase tracking-wider whitespace-nowrap">

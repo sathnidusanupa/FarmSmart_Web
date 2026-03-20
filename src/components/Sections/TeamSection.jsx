@@ -62,7 +62,7 @@ const TeamSection = () => {
               className="glass-panel rounded-3xl p-6 text-center group cursor-pointer"
             >
               <div className="w-20 h-20 md:w-24 md:h-24 mx-auto rounded-full border border-farm-green-500/30 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300 overflow-hidden">
-                <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
+                <img src={member.image} alt={`${member.name} - ${member.role}`} loading="lazy" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-lg md:text-xl font-bold text-white mb-1 group-hover:text-farm-green-400 transition-colors">
                 {member.name}

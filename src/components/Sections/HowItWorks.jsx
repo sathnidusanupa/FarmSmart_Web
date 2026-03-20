@@ -132,3 +132,5 @@ const HowItWorks = () => {
 export default HowItWorks;
 
 // Minor update: UpdateHowItWorkscomponentstructure
+
+// Minor update: RefactorHowItWorksvisuallayout

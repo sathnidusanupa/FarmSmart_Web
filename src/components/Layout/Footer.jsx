@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sprout, Twitter, Instagram, Facebook, Github } from 'lucide-react';
+import { Sprout, Youtube, Instagram, Linkedin, Github } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -16,14 +16,14 @@ const Footer = () => {
               Connecting farmers, empowering agriculture.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/10 transition-colors">
-                <Twitter size={18} />
+              <a href="https://www.youtube.com/@FarmSmart_162" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/10 transition-colors">
+                <Youtube size={18} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/10 transition-colors">
+              <a href="https://www.instagram.com/farmsmart2025/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/10 transition-colors">
                 <Instagram size={18} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/10 transition-colors">
-                <Facebook size={18} />
+              <a href="https://www.linkedin.com/company/113020246/admin/analytics/visitors/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/10 transition-colors">
+                <Linkedin size={18} />
               </a>
             </div>
           </div>

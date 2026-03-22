@@ -54,14 +54,14 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
-            <button className="w-full sm:w-auto px-8 py-4 rounded-full bg-gradient-to-r from-farm-green-600 space-x-2 to-emerald-400 text-white font-semibold text-lg flex items-center justify-center gap-2 group shadow-lg shadow-farm-green-500/25 hover:shadow-farm-green-500/40 hover:-translate-y-1 transition-all">
+            <a href="https://expo.dev/accounts/imansa_sandil/projects/farmsmart/builds/781a2694-0218-44db-becc-11ab706d1a0a" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-8 py-4 rounded-full bg-gradient-to-r from-farm-green-600 space-x-2 to-emerald-400 text-white font-semibold text-lg flex items-center justify-center gap-2 group shadow-lg shadow-farm-green-500/25 hover:shadow-farm-green-500/40 hover:-translate-y-1 transition-all">
               <span>Download the App</span>
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-            </button>
-            <button className="w-full sm:w-auto px-8 py-4 rounded-full bg-white/5 border border-white/10 text-white font-semibold flex items-center justify-center gap-2 hover:bg-white/10 transition-colors backdrop-blur-md">
+            </a>
+            <a href="https://youtu.be/wCjGParPgxM" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-8 py-4 rounded-full bg-white/5 border border-white/10 text-white font-semibold flex items-center justify-center gap-2 hover:bg-white/10 transition-colors backdrop-blur-md">
               <Play size={20} className="fill-white" />
               <span>Watch Demo</span>
-            </button>
+            </a>
           </motion.div>
 
 

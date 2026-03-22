@@ -49,9 +49,9 @@ const Navbar = () => {
           <button className="px-6 py-2.5 rounded-full bg-white/10 hover:bg-white/20 border border-white/10 text-white text-sm font-medium transition-all backdrop-blur-sm">
             Sign In
           </button>
-          <button className="px-6 py-2.5 rounded-full bg-gradient-to-r from-farm-green-500 to-emerald-400 text-white text-sm font-semibold shadow-lg shadow-farm-green-500/25 hover:shadow-farm-green-500/40 hover:-translate-y-0.5 transition-all">
+          <a href="https://expo.dev/accounts/imansa_sandil/projects/farmsmart/builds/781a2694-0218-44db-becc-11ab706d1a0a" target="_blank" rel="noopener noreferrer" className="px-6 py-2.5 rounded-full bg-gradient-to-r from-farm-green-500 to-emerald-400 text-white text-sm font-semibold shadow-lg shadow-farm-green-500/25 hover:shadow-farm-green-500/40 hover:-translate-y-0.5 transition-all">
             Download App
-          </button>
+          </a>
         </nav>
 
         {/* Mobile Menu Toggle */}
@@ -87,9 +87,9 @@ const Navbar = () => {
                 <button className="w-full py-3 rounded-xl bg-white/5 border border-white/10 text-white font-medium">
                   Sign In
                 </button>
-                <button className="w-full py-3 rounded-xl bg-farm-green-500 text-white font-semibold">
+                <a href="https://expo.dev/accounts/imansa_sandil/projects/farmsmart/builds/781a2694-0218-44db-becc-11ab706d1a0a" target="_blank" rel="noopener noreferrer" className="w-full py-3 rounded-xl bg-farm-green-500 text-white font-semibold inline-block text-center mt-2">
                   Download App
-                </button>
+                </a>
               </div>
             </div>
           </motion.div>

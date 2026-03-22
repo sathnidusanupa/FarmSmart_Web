@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <footer className="w-full bg-dark-950 border-t border-white/5 pt-16 pb-8 relative z-10">
       <div className="container mx-auto px-6 md:px-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8 mb-16">
+        <div className="grid grid-cols-1 md:flex md:justify-between gap-12 md:gap-8 mb-16">
           
-          <div className="col-span-1 md:col-span-1">
+          <div className="max-w-xs">
             <div className="flex items-center gap-3 mb-4">
               <img src="/logo.png" alt="FarmSmart Logo" className="w-8 h-8 object-contain" />
               <span className="font-display font-bold text-lg text-white">FarmSmart</span>
@@ -28,41 +28,21 @@ const Footer = () => {
             </div>
           </div>
 
-          <div>
-            <h4 className="font-semibold text-white mb-4">Product</h4>
-            <ul className="space-y-3">
-              <li><a href="#" className="text-sm text-slate-400 hover:text-farm-green-400 transition-colors">AgriSup AI</a></li>
-              <li><a href="#" className="text-sm text-slate-400 hover:text-farm-green-400 transition-colors">Pest Detection</a></li>
-              <li><a href="#" className="text-sm text-slate-400 hover:text-farm-green-400 transition-colors">Marketplace</a></li>
-              <li><a href="#" className="text-sm text-slate-400 hover:text-farm-green-400 transition-colors">Crop Calendar</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="font-semibold text-white mb-4">Company</h4>
-            <ul className="space-y-3">
-              <li><a href="#" className="text-sm text-slate-400 hover:text-white transition-colors">About Us</a></li>
-              <li><a href="#" className="text-sm text-slate-400 hover:text-white transition-colors">Careers</a></li>
-              <li><a href="#" className="text-sm text-slate-400 hover:text-white transition-colors">Press</a></li>
-              <li><a href="#" className="text-sm text-slate-400 hover:text-white transition-colors">Contact</a></li>
-            </ul>
-          </div>
-
-          <div>
+          <div className="w-full sm:w-56">
             <h4 className="font-semibold text-white mb-4">Get the App</h4>
             <div className="flex flex-col gap-3">
-              <button className="flex items-center justify-center gap-3 w-full bg-white/5 border border-white/10 hover:bg-white/10 py-3 rounded-xl transition-colors">
-                <div className="text-left">
-                  <div className="text-[10px] text-slate-300 leading-none">Download on the</div>
+              <a href="https://expo.dev/accounts/imansa_sandil/projects/farmsmart/builds/781a2694-0218-44db-becc-11ab706d1a0a" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-3 w-full bg-white/5 border border-white/10 hover:bg-white/10 py-3 px-4 rounded-xl transition-colors">
+                <div className="text-left w-full">
+                  <div className="text-[10px] text-slate-300 leading-none mb-1">Download on the</div>
                   <div className="text-sm font-semibold text-white leading-tight">App Store</div>
                 </div>
-              </button>
-              <button className="flex items-center justify-center gap-3 w-full bg-white/5 border border-white/10 hover:bg-white/10 py-3 rounded-xl transition-colors">
-                <div className="text-left">
-                  <div className="text-[10px] text-slate-300 leading-none">GET IT ON</div>
+              </a>
+              <a href="https://expo.dev/accounts/imansa_sandil/projects/farmsmart/builds/781a2694-0218-44db-becc-11ab706d1a0a" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-3 w-full bg-white/5 border border-white/10 hover:bg-white/10 py-3 px-4 rounded-xl transition-colors">
+                <div className="text-left w-full">
+                  <div className="text-[10px] text-slate-300 leading-none mb-1">GET IT ON</div>
                   <div className="text-sm font-semibold text-white leading-tight">Google Play</div>
                 </div>
-              </button>
+              </a>
             </div>
           </div>
 
